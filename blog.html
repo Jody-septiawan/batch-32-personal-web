@@ -2,31 +2,28 @@
   <head>
     <title>Creating Blog Page</title>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
     <!-- NavBar -->
     <nav>
-
       <div class="left-side">
-          <img src="assets/logo.png">
+        <img src="assets/logo.png" />
 
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="blog.html" class="nav-active">Blog</a></li>
-          </ul>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html" class="nav-active">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
       </div>
 
       <div class="right-side">
-          <a href="contact.html">Contact Me</a>
+        <a href="contact.html">Contact Me</a>
       </div>
-
-  </nav>
+    </nav>
 
     <!-- Blog -->
     <!-- Form -->
     <div class="blog">
-
       <div class="blog-form">
         <div class="form-container">
           <form onsubmit="addBlog(event)">
@@ -60,7 +57,7 @@
 
       <div id="contents" class="blog-list">
         <!-- dynamic content would be here -->
-        
+
         <div class="blog-list-item">
           <div class="blog-image">
             <img src="assets/blog-img.png" alt="" />
@@ -87,18 +84,12 @@
               numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
               eligendi debitis?
             </p>
-            <div style="text-align: right; color: grey;">
-              1 hour ago
-            </div>
+            <div style="text-align: right; color: grey">1 hour ago</div>
           </div>
         </div>
-
       </div>
-
     </div>
 
-
     <script src="blog.js"></script>
-
   </body>
 </html>
